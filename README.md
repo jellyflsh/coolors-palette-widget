@@ -1,3 +1,4 @@
 # testghibli
 
-https://github.com/jellyflsh/testghibli.git
+https://jellyflsh.github.io/testghibli/
+https://jellyflsh.github.io/cen1DD24/
