@@ -1,51 +1,45 @@
-/* Conteneur principal */
-.totoro-container {
-    position: relative;
-    width: 100%;
-    height: 500px; /* Ajustez selon vos besoins */
-    overflow: hidden;
-    background-color: #f2f2f2; /* Couleur de fond, modifiez selon votre thème */
-}
+/* CSS HEX */
+--fawn: #f0b67fff;
+--bittersweet: #fe5f55ff;
+--pearl: #d6d1b1ff;
+--tea-green: #c7efcfff;
+--beige: #eef5dbff;
 
-/* Style des éléments flottants */
-.totoro {
-    position: absolute;
-    width: 60px; /* Ajustez la taille des éléments */
-    animation: float 4s ease-in-out infinite;
-}
+/* CSS HSL */
+--fawn: hsla(29, 79%, 72%, 1);
+--bittersweet: hsla(4, 99%, 66%, 1);
+--pearl: hsla(52, 31%, 77%, 1);
+--tea-green: hsla(132, 56%, 86%, 1);
+--beige: hsla(76, 57%, 91%, 1);
 
-/* Animation flottante */
-@keyframes float {
-    0% {
-        transform: translateY(0) translateX(0);
-    }
-    50% {
-        transform: translateY(-20px) translateX(10px); /* Variation légère */
-    }
-    100% {
-        transform: translateY(0) translateX(0);
-    }
-}
+/* SCSS HEX */
+$fawn: #f0b67fff;
+$bittersweet: #fe5f55ff;
+$pearl: #d6d1b1ff;
+$tea-green: #c7efcfff;
+$beige: #eef5dbff;
 
-/* Délai d'animation unique pour chaque élément */
-.totoro:nth-child(1) {
-    animation-delay: 0s;
-}
-.totoro:nth-child(2) {
-    animation-delay: 0.5s;
-}
-.totoro:nth-child(3) {
-    animation-delay: 1s;
-}
-.totoro:nth-child(4) {
-    animation-delay: 1.5s;
-}
-.totoro:nth-child(5) {
-    animation-delay: 2s;
-}
-.totoro:nth-child(6) {
-    animation-delay: 2.5s;
-}
-.totoro:nth-child(7) {
-    animation-delay: 3s;
-}
+/* SCSS HSL */
+$fawn: hsla(29, 79%, 72%, 1);
+$bittersweet: hsla(4, 99%, 66%, 1);
+$pearl: hsla(52, 31%, 77%, 1);
+$tea-green: hsla(132, 56%, 86%, 1);
+$beige: hsla(76, 57%, 91%, 1);
+
+/* SCSS RGB */
+$fawn: rgba(240, 182, 127, 1);
+$bittersweet: rgba(254, 95, 85, 1);
+$pearl: rgba(214, 209, 177, 1);
+$tea-green: rgba(199, 239, 207, 1);
+$beige: rgba(238, 245, 219, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-right: linear-gradient(90deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-bottom: linear-gradient(180deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-left: linear-gradient(270deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-top-right: linear-gradient(45deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-bottom-right: linear-gradient(135deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-top-left: linear-gradient(225deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-bottom-left: linear-gradient(315deg, #f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
+$gradient-radial: radial-gradient(#f0b67fff, #fe5f55ff, #d6d1b1ff, #c7efcfff, #eef5dbff);
